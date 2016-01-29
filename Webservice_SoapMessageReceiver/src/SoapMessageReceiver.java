@@ -26,7 +26,6 @@ import javax.xml.transform.stream.StreamResult;
  * 2.利用以下方式取得資料
  * */
 public class SoapMessageReceiver {
-
 	SOAPConnectionFactory soapConnFactory;
 	SOAPConnection connection;
 	SOAPMessage SOAPrequest;// 傳出去的request
