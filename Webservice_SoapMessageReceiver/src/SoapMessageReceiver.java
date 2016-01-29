@@ -41,6 +41,7 @@ public class SoapMessageReceiver {
 
 	public String getSOAPData() {
 		try {
+			
 			creatSOAPConnection();
 			creatSOAPMessage();
 			editSOAPMessage();
