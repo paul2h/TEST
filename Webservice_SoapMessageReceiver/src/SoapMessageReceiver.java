@@ -62,7 +62,6 @@ public class SoapMessageReceiver {
 
 	/**
 	 * 創建SOAP連接
-	 * 
 	 * @throws SOAPException
 	 * @throws UnsupportedOperationException
 	 */
