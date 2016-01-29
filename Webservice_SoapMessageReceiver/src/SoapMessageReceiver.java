@@ -26,13 +26,14 @@ import javax.xml.transform.stream.StreamResult;
  * 2.利用以下方式取得資料
  * */
 public class SoapMessageReceiver {
+	
 	SOAPConnectionFactory soapConnFactory;
 	SOAPConnection connection;
 	SOAPMessage SOAPrequest;// 傳出去的request
 	SOAPMessage SOAPrespond;// 接收到的資料respond
 	String respondString;// 從respond轉換過後的String
 
-	/** 實際測試main */
+	/** 實際測試的main */
 	public static void main(String[] args) {
 		SoapMessageReceiver rsm = new SoapMessageReceiver();
 		System.out.println(rsm.getSOAPData());
